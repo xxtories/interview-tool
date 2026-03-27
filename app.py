@@ -46,7 +46,7 @@ if not st.session_state.setup_complete:
 
     
     # Company and Position Section
-   st.subheader('Company and Position', divider = 'rainbow')
+    st.subheader('Company and Position', divider = 'rainbow')
 
     # Initialize session state for company and position information and setting default values 
     if "level" not in st.session_state:
