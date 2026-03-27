@@ -28,7 +28,7 @@ def show_feedback():
 
 # Setup stage for collecting user details
 if not st.session_state.setup_complete:
-    st.subheader('Personal Information')
+    st.subheader('Personal information', divider='rainbow')
 
     # Initialize session state for personal information
     if "name" not in st.session_state:
@@ -46,7 +46,7 @@ if not st.session_state.setup_complete:
 
     
     # Company and Position Section
-    st.subheader('Company and Position')
+   st.subheader('Personal information', divider='rainbow')
 
     # Initialize session state for company and position information and setting default values 
     if "level" not in st.session_state:
