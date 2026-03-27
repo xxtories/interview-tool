@@ -123,3 +123,5 @@ if st.session_state.setup_complete:
         # Append the assistant's full response to the 'messages' list
         st.session_state.messages.append({"role": "assistant", "content": response})
 
+        
+
